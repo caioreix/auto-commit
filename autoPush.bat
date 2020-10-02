@@ -8,7 +8,6 @@ FOR /f "tokens=*" %%x in ('dir /a:d /b') do (
   git checkout -b autoPush
   git commit -a -m "auto push"
   git push origin autoPush
-  git push origin master
   cd ..
   )
 )
